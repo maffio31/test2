@@ -21,7 +21,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate-BusyCal.xml</string>
+		<string>PolicyTemplate-BusyContacts.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.5.2</string>
