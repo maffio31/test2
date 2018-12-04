@@ -7,7 +7,22 @@
 	<key>Identifier</key>
 	<string>local.jss.BusyContacts</string>
 	<key>Input</key>
-	<dict/>
+	<dict>
+	<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+        <string>True</string>
+        <key>CATEGORY</key>
+		<string>App Updates</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart-testing</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>BusyCal</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-BusyCal.xml</string>
+	</dict>
 	<key>MinimumVersion</key>
 	<string>0.5.2</string>
 	<key>ParentRecipe</key>
@@ -18,11 +33,26 @@
 			<key>Arguments</key>
 			<dict>
 				<key>category</key>
-				<string>Productivity</string>
+				<string>%CATEGORY%</string>
+				<key>groups</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>%GROUP_NAME%</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+						<string>%GROUP_TEMPLATE%</string>
+					</dict>
+				</array>
+				<key>policy_category</key>
+				<string>%POLICY_CATEGORY%</string>
+				<key>policy_template</key>
+				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
-				<key>version</key>
-				<string>%version%</string>
+				<key>self_service_description</key>
+				<string>%SELF_SERVICE_DESCRIPTION%</string>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
