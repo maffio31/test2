@@ -9,7 +9,7 @@
 	<key>Input</key>
 	<dict>
 	<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
-        <string>True</string>
+        <false/>
         <key>CATEGORY</key>
 		<string>App Updates</string>
 		<key>GROUP_NAME</key>
