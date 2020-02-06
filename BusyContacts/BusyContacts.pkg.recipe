@@ -7,10 +7,7 @@
 	<key>Identifier</key>
 	<string>local.pkg.BusyContacts</string>
 	<key>Input</key>
-	<dict>
-		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
-        	<string>True</string>
-	</dict>
+	<dict/>
 	<key>MinimumVersion</key>
 	<string>0.5.2</string>
 	<key>ParentRecipe</key>
