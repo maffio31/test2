@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of BusyContacts.</string>
 	<key>Identifier</key>
-	<string>com.github.maffio31.download.BusyContacts</string>
+	<string>maffio31.download.BusyContacts</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
