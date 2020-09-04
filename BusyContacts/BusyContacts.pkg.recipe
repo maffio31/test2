@@ -5,13 +5,13 @@
 	<key>Description</key>
 	<string>Re-packages BusyContacts in a new PKG without nasty scripts.</string>
 	<key>Identifier</key>
-	<string>com.github.maffio31.pkg.BusyContacts</string>
+	<string>maffio31.pkg.BusyContacts</string>
 	<key>Input</key>
 	<dict/>
 	<key>MinimumVersion</key>
 	<string>0.5.2</string>
 	<key>ParentRecipe</key>
-	<string>com.github.maffio31.download.BusyContacts</string>
+	<string>maffio31.download.BusyContacts</string>
 	<key>Process</key>
 	<array>
 		<dict>
