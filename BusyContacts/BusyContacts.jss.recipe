@@ -5,7 +5,7 @@
 <key>Description</key>
 	<string>Uploads the BusyContacts pkg to JSS.</string>
 	<key>Identifier</key>
-	<string>maffio31.jss.BusyContacts</string>
+	<string>com.github.maffio31.jss.BusyContacts</string>
 	<key>Input</key>
 	<dict>
 	<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
@@ -26,7 +26,7 @@
 	<key>MinimumVersion</key>
 	<string>0.5.2</string>
 	<key>ParentRecipe</key>
-	<string>maffio31.pkg.BusyContacts</string>
+	<string>com.github.maffio31.pkg.BusyContacts</string>
 	<key>Process</key>
 	<array>
 		<dict>
