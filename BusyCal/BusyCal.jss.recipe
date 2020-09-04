@@ -7,6 +7,21 @@
 	<key>Identifier</key>
 	<string>com.github.maffio31.jss.BusyCal</string>
 	<key>Input</key>
+	<dict>
+	<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+        <false/>
+        <key>CATEGORY</key>
+		<string>App Updates</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart-testing</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>BusyCal</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-BusyCal.xml</string>
 	<dict/>
 	<key>MinimumVersion</key>
 	<string>0.5.2</string>
