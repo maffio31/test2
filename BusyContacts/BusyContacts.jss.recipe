@@ -5,7 +5,7 @@
 <key>Description</key>
 	<string>Uploads the BusyContacts pkg to JSS.</string>
 	<key>Identifier</key>
-	<string>maffio31.jss.BusyContacts</string>
+	<string>com.github.maffio31.jss.BusyContacts</string>
 	<key>Input</key>
 	<dict>
 	<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
