@@ -34,6 +34,8 @@
 				<dict>
 					<key>Applications</key>
 					<string>0775</string>
+					<key>Applications/BusyCal.app</key>
+					<string>0775</string>
 				</dict>
 				<key>pkgroot</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
@@ -45,7 +47,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/BusyCal/Applications/BusyCal.app</string>
+				<string>%RECIPE_CACHE_DIR%/BusyCal/Applications</string>
 				<key>pkg_payload_path</key>
 				<string>%RECIPE_CACHE_DIR%/downloads/BusyCalInstaller/BusyCal.pkg/Payload</string>
 			</dict>
@@ -56,7 +58,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%RECIPE_CACHE_DIR%/BusyCal/Applications/BusyCal.app/BusyCal.app/Contents/Info.plist</string>
+				<string>%RECIPE_CACHE_DIR%/BusyCal/Applications/BusyCal.app/Contents/Info.plist</string>
 			</dict>
 			<key>Processor</key>
 			<string>Versioner</string>
