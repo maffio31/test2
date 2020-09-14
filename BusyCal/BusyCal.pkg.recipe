@@ -36,11 +36,24 @@
                 <key>archive_path</key>
                 <string>%pathname%</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Applications</string>
+                <string>%pkgroot%/downloads</string>
                 <key>purge_destination</key>
                 <true/>
             </dict>
         </dict>
+	<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/downloads/BusyCalInstaller</string>
+				<key>flat_pkg_path</key>
+				<string>%RECIPE_CACHE_DIR%/downloads/pkg/BusyCal Installer.pkg</string>
+				<key>purge_destination</key>
+				<true/>
+			</dict>
+			<key>Processor</key>
+			<string>FlatPkgUnpacker</string>
+		</dict>
         <dict>
             <key>Comment</key>
             <string>Get version from the app</string>
