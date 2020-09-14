@@ -34,8 +34,6 @@
 				<dict>
 					<key>Applications</key>
 					<string>0775</string>
-					<key>Applications/BusyCal.app</key>
-					<string>0775</string>
 				</dict>
 				<key>pkgroot</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
