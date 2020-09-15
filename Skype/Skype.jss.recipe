@@ -15,7 +15,7 @@
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart-testing</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplate.xml</string>
+		<string>SmartGroupTemplate-skype.xml</string>
 		<key>NAME</key>
 		<string>Skype</string>
 		<key>POLICY_CATEGORY</key>
