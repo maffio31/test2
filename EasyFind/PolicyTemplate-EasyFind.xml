@@ -1,0 +1,26 @@
+<policy>
+	<general>
+		<name>%PROD_NAME%-testing</name>
+		<enabled>true</enabled>
+		<frequency>Ongoing</frequency>
+		<trigger_other>install_EasyFindUpdate-testing</trigger_other>
+		<category>
+			<name>%POLICY_CATEGORY%</name>
+		</category>
+	</general>
+	<scope>
+		<!--Scope added by JSSImporter-->
+	</scope>
+	<package_configuration>
+		<!--Package added by JSSImporter-->
+	</package_configuration>
+	<scripts>
+		<!--Scripts added by JSSImporter-->
+	</scripts>
+	<self_service>
+		<use_for_self_service>false</use_for_self_service>
+	</self_service>
+	<maintenance>
+		<recon>true</recon>
+	</maintenance>
+</policy>
